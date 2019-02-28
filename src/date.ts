@@ -6,62 +6,62 @@ export const fillInDigit = (number:number, digit:number) => {
 }
 export const month = [{
   short: 'Jan',
-  long: 'January'
+  long: 'Janeiro'
 }, {
-  short: 'Feb',
-  long: 'February'
+  short: 'Fev',
+  long: 'Fevereiro'
 }, {
   short: 'Mar',
-  long: 'March'
+  long: 'Março'
 }, {
-  short: 'Apr',
-  long: 'April'
+  short: 'Abr',
+  long: 'Abril'
 }, {
-  short: 'May',
-  long: 'May'
+  short: 'Mai',
+  long: 'Maio'
 }, {
   short: 'Jun',
-  long: 'June'
+  long: 'Junho'
 }, {
   short: 'Jul',
-  long: 'July'
+  long: 'Julho'
 }, {
-  short: 'Aug',
-  long: 'August'
+  short: 'Ago',
+  long: 'Agosto'
 }, {
-  short: 'Sep',
-  long: 'September'
+  short: 'Set',
+  long: 'Setembro'
 }, {
-  short: 'Oct',
-  long: 'October'
+  short: 'Out',
+  long: 'Outubro'
 }, {
   short: 'Nov',
-  long: 'November'
+  long: 'Novembro'
 }, {
-  short: 'Dec',
-  long: 'December'
+  short: 'Dez',
+  long: 'Dezembro'
 }]
 export const day = [{
-    short: 'Sun',
-    long: 'Sunday'
+    short: 'Dom',
+    long: 'Domingo'
   }, {
-    short: 'Mon',
-    long: 'Monday'
+    short: 'Seg',
+    long: 'Segunda-feira'
   }, {
-    short: 'Tue',
-    long: 'Tuesday'
+    short: 'Ter',
+    long: 'Terça-feira'
   }, {
-    short: 'Wed',
-    long: 'Wednesday'
+    short: 'Qua',
+    long: 'Quarta-feira'
   }, {
-    short: 'Thu',
-    long: 'Thursday'
+    short: 'Qui',
+    long: 'Quinta-feira'
   }, {
-    short: 'Fri',
-    long: 'Friday'
+    short: 'Sex',
+    long: 'Sexta-feira'
   }, {
-    short: 'Sat',
-    long: 'Saturday'
+    short: 'Sab',
+    long: 'Sábado'
 }]
 export const format = (date:Date, format:string) =>
   [[{
